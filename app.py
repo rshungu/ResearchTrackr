@@ -5,14 +5,29 @@ from sqlalchemy import create_engine
 import plotly.express as px
 import matplotlib.pyplot as plt
 
-
 DATABASE_URL = "postgresql://postgres:tanzania08@localhost:5432/research_publications"
 
-# Create an SQLAlchemy engine
-engine = create_engine(DATABASE_URL)
+# Load database URL from Streamlit secrets
+db_url = st.secrets["connections"]["DATABASE_URL"]
+
+# Connect to PostgreSQL using SQLAlchemy
+engine = create_engine(db_url)
+
+# Test connection
+def test_connection():
+    try:
+        with engine.connect() as connection:
+            result = connection.execute("SELECT NOW()")
+            st.success("✅ Connected to Database!")
+            st.write("Current Timestamp:", result.fetchone())
+    except Exception as e:
+        st.error("❌ Connection failed")
+        st.write(e)
+
+# Run the test function
+test_connection()
 
 @st.cache_data(ttl=0)  # Ensures fresh data loading
-
 def load_data():
     query = "SELECT * FROM hematology.hematology_dataset;"
     return pd.read_sql(query, engine)  # ✅ Uses SQLAlchem
