@@ -1,0 +1,91 @@
+altair==5.5.0
+anaconda-anon-usage @ file:///C:/b/abs_c3w_h1zzjg/croot/anaconda-anon-usage_1710965204622/work
+archspec @ file:///croot/archspec_1709217642129/work
+attrs==25.3.0
+blinker==1.9.0
+boltons @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/boltons_1699480450092/work
+Bottleneck @ file:///C:/b/abs_816hr2khp1/croot/bottleneck_1731058648110/work
+Brotli @ file:///C:/b/abs_3d36mno480/croot/brotli-split_1714483178642/work
+cachetools==5.5.2
+certifi @ file:///C:/b/abs_59o0xj7aav/croot/certifi_1734473304008/work/certifi
+cffi @ file:///C:/b/abs_90yq4lmu83/croot/cffi_1726856448345/work
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+click==8.1.8
+colorama @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/colorama_1699472650914/work
+conda @ file:///C:/b/abs_b1d7n30ulb/croot/conda_1737383509267/work
+conda-content-trust @ file:///C:/b/abs_bdfatn_wzf/croot/conda-content-trust_1714483201909/work
+conda-libmamba-solver @ file:///home/conda/feedstock_root/build_artifacts/conda-libmamba-solver_1733314767897/work/src
+conda-package-handling @ file:///C:/b/abs_831_pypuuz/croot/conda-package-handling_1718138287790/work
+conda_package_streaming @ file:///C:/b/abs_fe6zb0_j8_/croot/conda-package-streaming_1718136098642/work
+configparser==7.1.0
+contourpy==1.3.1
+cryptography @ file:///C:/b/abs_35g500qir4/croot/cryptography_1724940575116/work
+cycler==0.12.1
+distro @ file:///C:/b/abs_71xr36ua5r/croot/distro_1714488282676/work
+docx==0.2.4
+et_xmlfile==2.0.0
+fonttools==4.55.3
+frozendict @ file:///C:/b/abs_2alamqss6p/croot/frozendict_1713194885124/work
+gitdb==4.0.12
+GitPython==3.1.44
+greenlet==3.1.1
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+Jinja2==3.1.6
+jsonpatch @ file:///C:/b/abs_4fdm88t7zi/croot/jsonpatch_1714483974578/work
+jsonpointer==2.1
+jsonschema==4.23.0
+jsonschema-specifications==2024.10.1
+kiwisolver==1.4.8
+libmambapy @ file:///D:/bld/mamba-split_1732521952449/work/libmambapy
+lxml==5.3.0
+MarkupSafe==3.0.2
+matplotlib==3.10.0
+menuinst @ file:///C:/b/abs_76jwd47ck1/croot/menuinst_1723567618942/work
+mkl-service==2.4.0
+mkl_fft @ file:///C:/Users/dev-admin/mkl/mkl_fft_1730823082242/work
+mkl_random @ file:///C:/Users/dev-admin/mkl/mkl_random_1730822522280/work
+narwhals==1.31.0
+numexpr @ file:///C:/b/abs_05o8p7bfml/croot/numexpr_1730215959182/work
+numpy @ file:///C:/b/abs_0123vcxhf8/croot/numpy_and_numpy_base_1725470331966/work/dist/numpy-2.0.1-cp312-cp312-win_amd64.whl#sha256=e3e9d7fcaa32e9aa86aa46a7191a47fc4c4b35942462bbbedd17c45ef934dccd
+openpyxl==3.1.5
+packaging @ file:///C:/b/abs_c3vlh0z4jw/croot/packaging_1720101866539/work
+pandas @ file:///C:/b/abs_e18w9ay4we/croot/pandas_1732735115740/work/dist/pandas-2.2.3-cp312-cp312-win_amd64.whl#sha256=2c8058e41dda2e7ecfff0740ad1d98f17d528c740f71b038c523a9d24d2321b0
+pathlib==1.0.1
+pillow==11.1.0
+platformdirs @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/platformdirs_1701797392447/work
+plotly==6.0.1
+pluggy @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pluggy_1699472504117/work
+protobuf==5.29.3
+psycopg2==2.9.10
+psycopg2-binary==2.9.10
+pyarrow==19.0.1
+pycosat @ file:///C:/b/abs_5csdern___/croot/pycosat_1714513102923/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydeck==0.9.1
+pyparsing==3.2.1
+PySocks @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pysocks_1699473336188/work
+python-dateutil @ file:///C:/b/abs_3au_koqnbs/croot/python-dateutil_1716495777160/work
+python-docx==1.1.2
+pytz @ file:///C:/b/abs_6ap4tsz1ox/croot/pytz_1713974360290/work
+referencing==0.36.2
+requests @ file:///C:/b/abs_9frifg92q2/croot/requests_1721410901096/work
+rpds-py==0.23.1
+ruamel.yaml @ file:///C:/b/abs_0cunwx_ww6/croot/ruamel.yaml_1727980181547/work
+ruamel.yaml.clib @ file:///C:/b/abs_5fk8zi6n09/croot/ruamel.yaml.clib_1727769837359/work
+setuptools==75.1.0
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+smmap==5.0.2
+SQLAlchemy==2.0.39
+streamlit==1.43.2
+tenacity==9.0.0
+toml==0.10.2
+tornado==6.4.2
+tqdm @ file:///C:/b/abs_77wju137gk/croot/tqdm_1724853945787/work
+truststore @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/truststore_1701881385424/work
+typing_extensions==4.12.2
+tzdata @ file:///croot/python-tzdata_1690578112552/work
+urllib3 @ file:///C:/b/abs_9a_f8h_bn2/croot/urllib3_1727769836930/work
+watchdog==6.0.0
+wheel==0.44.0
+win-inet-pton @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/win_inet_pton_1699472992992/work
+zstandard @ file:///C:/b/abs_82dff2ths3/croot/zstandard_1728569207191/work
