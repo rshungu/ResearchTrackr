@@ -4,11 +4,15 @@ import pandas as pd
 from sqlalchemy import create_engine
 import plotly.express as px
 import matplotlib.pyplot as plt
+import os
 
-DATABASE_URL = "postgresql://postgres:tanzania08@localhost:5432/research_publications"
+# Get the DATABASE_URL from Railway
+db_url = os.getenv("DATABASE_URL")
 
-# Load database URL from Streamlit secrets
-db_url = st.secrets["connections"]["DATABASE_URL"]
+if not db_url:
+    st.error("DATABASE_URL is not set. Make sure it's configured in Railway.")
+else:
+    st.success("Connected to database successfully!")
 
 # Connect to PostgreSQL using SQLAlchemy
 engine = create_engine(db_url)
