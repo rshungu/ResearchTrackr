@@ -48,3 +48,57 @@ research data, visualizing key metrics, and analyzing supervisor contributions.
 6. Run the Streamlit app:
    ```bash
    streamlit run app.py
+
+## Repository Structure
+```
+ResearchTrackr/
+│── app.py                      # Main Streamlit app
+│── requirements.txt             # Dependencies for installation
+│── config.py                    # Database configuration (optional)
+│── database.py                   # Database connection logic
+│── pages/                        # For multi-page app (if needed)
+│   ├── dashboard.py              # Dashboard logic
+│   ├── filters.py                # Filter sidebar
+│── assets/                       # Images, logos, other static files
+│── README.md                     # Detailed project documentation
+│── .gitignore                    # Ignore unnecessary files
+│── LICENSE (MIT recommended)     # Open-source license
+│── Dockerfile (optional)         # Containerization for deployment
+│── railway.json (optional)       # Railway-specific configurations
+```
+## How to Run Locally
+1️. **Clone the repository**
+```
+git clone https://github.com/yourname/yourrepo.git
+cd yourrepo
+```
+
+2️. **Create a virtual environment (optional but recommended)**
+```
+python -m venv env
+source env/bin/activate  # On Windows, use `env\Scripts\activate`
+```
+
+3. **Install dependencies**
+```
+pip install -r requirements.txt
+```
+
+4. **Run the streamlit app**
+```
+streamlit run app.py
+```
+## Deployment on Railway
+You can deploy this app on Railway using the following steps:
+1. Fork this repository
+2. Sign up on Railway and create a new project
+3. Connect your GitHub repository and enable automatic deployments
+4. Set up environment variables (e.g., database URL)
+5. Deploy and share your app URL!
+
+## Contributing
+We welcome any contributions! If you’d like to improve this project:
+- Fork the repository
+- Create a new branch (git checkout -b feature-new-idea)
+- Commit your changes (git commit -m "Added a cool feature")
+- Push to GitHub and open a Pull Request 🚀
