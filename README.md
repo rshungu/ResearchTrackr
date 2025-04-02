@@ -47,4 +47,4 @@ research data, visualizing key metrics, and analyzing supervisor contributions.
    DATABASE_URL = "postgresql://your_username:your_password@localhost:5432/research_publications```
 6. Run the Streamlit app:
    ```bash
-   streamlit run app.py```
+   streamlit run app.py
