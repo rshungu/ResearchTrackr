@@ -6,6 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/streamlit-1.x-red.svg)]()
 
 
+
 ## Overview
 ResearchTrackr is a Streamlit-based web application designed to track student research papers, supervisors, and publication statuses using PostgreSQL as the database backend. The app provides an intuitive interface for filtering
 research data, visualizing key metrics, and analyzing supervisor contributions.
@@ -88,7 +89,8 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-## Deployment on Railway
+
+## How to Deploy
 You can deploy this app on Railway using the following steps:
 1. Fork this repository
 2. Sign up on Railway and create a new project
