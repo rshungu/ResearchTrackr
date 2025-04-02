@@ -2,6 +2,7 @@ import streamlit as st
 import psycopg2
 import pandas as pd
 from sqlalchemy import create_engine
+from sqlalchemy import text
 import plotly.express as px
 import matplotlib.pyplot as plt
 import os
