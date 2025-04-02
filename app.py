@@ -6,10 +6,9 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import os
 
-DATABASE_URL = "postgresql://postgres:tanzania08@localhost:5432/research_publications"
 
 # Get the DATABASE_URL from Railway
-db_url = os.getenv("DATABASE_URL")
+db_url = os.getenv("postgresql://postgres:tanzania08@localhost:5432/research_publications")
 
 if not db_url:
     st.error("DATABASE_URL is not set. Make sure it's configured in Railway.")
