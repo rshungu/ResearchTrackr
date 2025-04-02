@@ -24,12 +24,11 @@ engine = create_engine(db_url)
 def test_connection():
     try:
         with engine.connect() as connection:
-            result = connection.execute("SELECT NOW()")
-            st.success("✅ Connected to Database!")
-            st.write("Current Timestamp:", result.fetchone())
+            result = connection.execute(text("SELECT NOW()"))  # Use `text()`
+            timestamp = result.scalar()  # Fetch single value
+            print("Database connected successfully! Server Time:", timestamp)
     except Exception as e:
-        st.error("❌ Connection failed")
-        st.write(e)
+        print("❌ Connection failed:", e)
 
 # Run the test function
 test_connection()
