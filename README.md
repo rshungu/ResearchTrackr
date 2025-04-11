@@ -11,6 +11,7 @@
 ResearchTrackr is a Streamlit-based web application designed to track student research papers, supervisors, and publication statuses using PostgreSQL as the database backend. The app provides an intuitive interface for filtering
 research data, visualizing key metrics, and analyzing supervisor contributions.
 
+
 ### Features
 
 1. Search & Filters:
@@ -28,9 +29,14 @@ research data, visualizing key metrics, and analyzing supervisor contributions.
 
 4. Expandable Research Table:
     - Displays full research details with dynamic filtering.
+  
+## Demo
+You can showcase a live demo of your app here:
+- [Live Demo](https://researchtrackr.up.railway.app/) 
 
-## Database Schema
-
+### Screenshot
+Here’s a screenshot of the app:
+![App Screenshot](https://github.com/rshungu/ResearchTrackr/blob/ed824ef7718f211dd16111ae232cc6a14793ebe2/App%20Screenshots/App%20collage.png)
 
 ## Installation Steps
 
