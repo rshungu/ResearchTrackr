@@ -3,11 +3,10 @@ import pandas as pd
 import altair as alt
 import plotly.express as px
 
-projects_url = "https://github.com/rshungu/ResearchTrackr/blob/efc3007fe307766e6f358a67eccacf9f5ed013e8/data/research_projects.csv"
-students_url = "https://github.com/rshungu/ResearchTrackr/blob/efc3007fe307766e6f358a67eccacf9f5ed013e8/data/students.csv"
-supervisors_url = "https://github.com/rshungu/ResearchTrackr/blob/efc3007fe307766e6f358a67eccacf9f5ed013e8/data/supervisors.csv"
-logo_path = "https://github.com/rshungu/ResearchTrackr/blob/efc3007fe307766e6f358a67eccacf9f5ed013e8/researchtrackr_logo.png"
-
+projects_url = "data/research_projects.csv"
+students_url = "data/students.csv"
+supervisors_url = "data/supervisors.csv"
+logo_path = "researchtrackr_logo.png"
 
 projects_df = pd.read_csv(projects_url)
 students_df = pd.read_csv(students_url)
