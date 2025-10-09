@@ -1,25 +1,17 @@
 import streamlit as st
 import pandas as pd
-from sqlalchemy import create_engine
 import altair as alt
 import plotly.express as px
-
-# Connect to PostgreSQL
-# engine = create_engine('postgresql://postgres:Tanzania_08@localhost:5432/ResearchTrackr')
-
-# # Read tables into Pandas
-# projects_df = pd.read_sql("SELECT * FROM research_trackr.research_projects", engine)
-# students_df = pd.read_sql("SELECT * FROM research_trackr.students", engine)
-# supervisors_df = pd.read_sql("SELECT * FROM research_trackr.supervisors", engine)
 
 projects_url = "https://raw.githubusercontent.com/rshungu/ResearchTrackr/main/data/research_projects.csv"
 students_url = "https://raw.githubusercontent.com/rshungu/ResearchTrackr/main/data/students.csv"
 supervisors_url = "https://raw.githubusercontent.com/rshungu/ResearchTrackr/main/data/supervisors.csv"
+logo_path = r"https://raw.githubusercontent.com/rshungu/ResearchTrackr/main/researchtrackr_logo.png"
+
 
 projects_df = pd.read_csv(projects_url)
 students_df = pd.read_csv(students_url)
 supervisors_df = pd.read_csv(supervisors_url)
-logo_path = r"https://raw.githubusercontent.com/rshungu/ResearchTrackr/main/researchtrackr_logo.png"
 
 # -------------------------------
 # Streamlit Page Config
