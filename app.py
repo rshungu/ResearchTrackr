@@ -6,7 +6,7 @@ import plotly.express as px
 projects_url = "data/research_projects.csv"
 students_url = "data/students.csv"
 supervisors_url = "data/supervisors.csv"
-logo_path = "researchtrackr_logo.png"
+logo_path = "data/researchtrackr_logo.png"
 
 projects_df = pd.read_csv(projects_url)
 students_df = pd.read_csv(students_url)
